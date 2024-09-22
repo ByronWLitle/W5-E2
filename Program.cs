@@ -14,9 +14,9 @@ namespace W5_E2
             Shape rectangle = new Rectangle(3, 4); //Creates an object called rectangle using abstract class Shape then calling respected inheritted class; using parameters defined in child class for variable
             Shape triangle = new Triangle(3, 4); //Creates an object called triangle using abstract class Shape then calling respected inheritted class; using parameters defined in child class for variable
 
-            Console.WriteLine(circle.CalculateArea) //Outputs the answer with formula of each respected CalculateArea()
-            Console.WriteLine(rectangle.CalculateArea) //Outputs the answer with formula of each respected CalculateArea()
-            Console.WriteLine(triangle.CalculateArea) //Outputs the answer with formula of each respected CalculateArea()
+            Console.WriteLine($"The area of the circle is: {circle.CalculateArea()}"); //Outputs the answer with formula of each respected CalculateArea()
+            Console.WriteLine($"The area of the rectangle is: {rectangle.CalculateArea()}"); //Outputs the answer with formula of each respected CalculateArea()
+            Console.WriteLine($"The area of the circle is: {triangle.CalculateArea()}"); //Outputs the answer with formula of each respected CalculateArea()
             Console.ReadLine(); //Pauses program to allow user to see output
         }
         //Abstract Shape class that shares a method across child classes
